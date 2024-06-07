@@ -8,7 +8,7 @@ import {Chart as ChartJS,
     Title,
     Tooltip,
     Legend} from 'chart.js'
-import {LineChartdata} from "@/app/components/dashboard/Chart/FakeChartData";
+import {LineChartdata} from "@/app/ui/dashboard/Chart/FakeChartData";
 
 ChartJS.register(
     CategoryScale,

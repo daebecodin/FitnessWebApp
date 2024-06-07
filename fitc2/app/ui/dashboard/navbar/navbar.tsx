@@ -1,11 +1,11 @@
 import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Input, DropdownItem, DropdownTrigger, Dropdown, DropdownMenu, Avatar} from "@nextui-org/react";
-import {SearchIcon} from "@/app/components/dashboard/SearchIcon";
+import {SearchIcon} from "@/app/ui/dashboard/SearchIcon";
 
 export default function NavbarTop() {
     return(
         <main>
-            <Navbar isBordered className={"w-full bg-bg-soft rounded-lg overflow-hidden"}>
+            <Navbar isBordered className={"w-full bg-bg-soft rounded-lg overflow-hidden bg-white shadow-inner shadow-slate-300"}>
                 {/*<NavbarContent justify="start">*/}
                 {/*    <NavbarBrand className="mr-4">*/}
                 {/*        <p className="hidden sm:block font-bold text-inherit">*/}

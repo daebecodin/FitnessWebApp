@@ -6,10 +6,10 @@ import { FaArrowDown, FaArrowUp } from "react-icons/fa6";
 
 export default function DashboardCardMain() {
     return (
-        <div className=" flex-auto">
-            <Card className="w-full p-4 bg-bg-soft text-white cursor-pointer hover:bg-slate-600 flex-1 ">
+        <div className=" flex-auto ">
+            <Card className="w-full p-4 bg-white text-bg-soft cursor-pointer hover:bg-slate-200 shadow-inner shadow-slate-300">
                 <CardHeader className="pb-0 pt-2 px-4 flex-col gap-2">
-                    <p className="text-medium uppercase font-bold">Weight</p>
+                    <p className="text-medium uppercase font-bold ">Weight</p>
                     <div className={"flex text-medium p-2 "}>
                         <div>
                             <h1 className=" font-bold text-large">167.3</h1>

@@ -1,5 +1,5 @@
 import React from "react";
-import MenuLink from "@/app/components/dashboard/sidebar/menuLink/menuLink";
+import MenuLink from "@/app/ui/dashboard/sidebar/menuLink/menuLink";
 import { GrOverview } from "react-icons/gr";
 import { FaCalendar, FaHome } from "react-icons/fa";
 import { GiWeightLiftingUp } from "react-icons/gi";
@@ -36,7 +36,7 @@ const menuItems = [
 
 export default function Sidebar() {
     return (
-        <div>
+        <div className={"bg-white text-bg-soft"}>
             <div className={"p-2"}>
                 <User
                     name="Jane Doe"
