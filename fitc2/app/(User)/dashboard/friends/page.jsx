@@ -1,5 +1,5 @@
 export default function Page() {
     return (
-        <main>Overview Page</main>
+        <main>Friends Page</main>
     )
 }

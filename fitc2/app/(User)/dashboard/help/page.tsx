@@ -1,6 +1,5 @@
-
 export default function Page() {
     return (
-       <main>Workouts Page</main>
+        <main>Help Page</main>
     )
 }
